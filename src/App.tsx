@@ -27,7 +27,7 @@ export default function App() {
   return (
     <>
       <LineWaves
-        style={{ position: "fixed", inset: 0, zIndex: -1, pointerEvents: "none" }}
+        style={{ position: "fixed", inset: 0, zIndex: 9999, pointerEvents: "none" }}
         color1="#ffffff"
         color2="#ffffff"
         color3="#ffffff"
